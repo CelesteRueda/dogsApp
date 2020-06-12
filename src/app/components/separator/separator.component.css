@@ -1,0 +1,13 @@
+.separador{
+    background-color:#00BCCC;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+}
+.titulo{
+    font-size: 20px;
+    color: white;
+
+}
