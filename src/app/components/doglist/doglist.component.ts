@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
 import { DogService } from './doglist.service';
-import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'doglist',
   templateUrl: './doglist.component.html',
-  styleUrls: ['./doglist.component.css'],
-  providers: [DogService]
+  styleUrls: ['./doglist.component.css']
 })
 
 export class DogListComponent {
